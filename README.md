@@ -6,6 +6,8 @@
 - Command: git add <file>
 - Command: git add *.extension. Example: git add *.html adds all HTML files.
 - git add -A. Adds all files and folders.
+- git reset HEAD <file>... to unstage.
+- touch .gitignore to create a hidden file where you can type in all the files you want to ignore.
 
 # Git Repository
 - Where all our snapshots are stored.
