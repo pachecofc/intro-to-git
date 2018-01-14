@@ -24,4 +24,9 @@
 - Changing branches: git checkout <branch>
 
 - Merging a branch
+- Change to branch master and then git merge <branch you want to merge into master>
+- On the GNU nano screen press Control + X
+
 - Removing a branch
+- NOT recommended
+- git branch -d <branch>
