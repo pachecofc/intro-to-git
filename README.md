@@ -70,3 +70,15 @@ Note: When you checkout an earlier commit, you are now in a "detached HEAD"
 state, this means that you are no longer on the commit that is being pointed to
 by the HEAD. The HEAD, in git, is a pointer to the most recent commit of
 whichever branch you are currently on.
+
+# Git connection to GitHub
+- Create a repository on GitHub.
+- Copy the https address.
+- On C9 make sure you are on your project directory.
+- Type git remote add origin <https address>
+- Or git remote set-url origin <https address>.
+- Type git remote -v in order to view the connection.
+- Type git push -u origin master.
+- When asked type your username and password and hit enter.
+- Check if everything worked out fine by logging in GitHub and accessing the
+- project repository.
